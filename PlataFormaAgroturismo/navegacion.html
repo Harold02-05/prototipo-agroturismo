@@ -1,0 +1,83 @@
+<!-- navigation.html -->
+<nav>
+    <div class="logo">
+        <h1>AgroPlataforma</h1>
+        <p id="section-description">Conectando el campo con oportunidades</p>
+    </div>
+    <ul>
+        <li><a href="/index_1.html">Informacion </a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Campesino_1.html">Atencion Al Ciudadano</a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Organizacion.html">PQRSD</a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Turista.html">Apoyanos</a></li>
+    </ul>
+</nav>
+
+<style>
+    /* Estilos específicos de la navegación */
+    nav {
+        background-color: #2c8a4a;
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .logo h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .logo p {
+        font-size: 0.9rem;
+        opacity: 0.9;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    nav ul li {
+        margin-left: 1.5rem;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        transition: opacity 0.3s;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+    
+    nav ul li a:hover {
+        opacity: 0.8;
+        background-color: rgba(255,255,255,0.1);
+    }
+    
+    nav ul li a.active {
+        background-color: #1b5e20;
+        font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+        nav {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        nav ul {
+            margin-top: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0.5rem;
+        }
+    }
+
+    
+</style>

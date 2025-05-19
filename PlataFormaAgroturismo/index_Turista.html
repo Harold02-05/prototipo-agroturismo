@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroPlataforma - Zona para Turistas</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AgroPlataforma</h1>
+            <p>Zona para Turistas</p>
+        </div>
+        <nav>
+            <ul>
+        <li><a href="PlataFormaAgroturismo/index_1.html">Inicio</a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Campesino_1.html">Campesinos</a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Organizacion.html">Organizaciones</a></li>
+        <li><a href="PlataFormaAgroturismo/Index_Turista.html">Turistas</a></li>
+    </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Bienvenido Amigo Turista</h2>
+            <p>Descubre experiencias únicas de agroturismo en nuestra plataforma.</p>
+        </section>
+
+        <section class="search-box">
+            <h3>Buscar Lugares Agroturísticos En Orito Putumayo</h3>
+            <form action="busqueda.html" method="GET">
+                <div class="search-fields">
+                    <input type="text" placeholder="¿Qué tipo de experiencia buscas?" name="query">
+                    <select name="region">
+                        <option value="">Tipos de lugares</option>
+                        <option value="norte">Agroecologia y Senderismo</option>
+                        <option value="sur"> Agroecologia y Avistamiento de Aves</option>
+                        <option value="este">Agroecologia y Encuentro Ancestral</option>
+                        <option value="oeste">Agroecologia y Rios, Natacion y Navegacion</option>
+                    </select>
+                    <select name="tipo">
+                        <option value="">Todos los tipos</option>
+                        <option value="finca">Finca Las palmas Vereda la Paz</option>
+                        <option value="vinedo">la Vega Vereda San Andres</option>
+                        <option value="cafe">El Lago Vereda San Andres </option>
+                        <option value="ganadero">Finca el renacer Veeda El Paraiso</option>
+                        <option value="artesanal">Finca el Rey Vereda San Andres</option>
+                    </select>
+                    <button type="submit" class="btn">Buscar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="featured">
+            <h3>Experiencias Destacadas</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Finca+Orgánica" alt="Finca Orgánica">
+                    <h4>Finca Las palmas Vereda la Paz</h4>
+                    <p>Experiencia completa en agricultura orgánica con alojamiento incluido.</p>
+                    <a href="detalles.html" class="btn">Ver detalles</a>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Cafetal+Tradicional" alt="Cafetal Tradicional">
+                    <h4>Finca el Rey Vereda San Andres</h4>
+                    <p>Aprende sobre la naturaleza la biodiversidad y los avistamientos.</p>
+                    <a href="detalles.html" class="btn">Ver detalles</a>
+                </div>
+
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Viñedo+Familiar" alt="Viñedo Familiar">
+                    <h4>Finca el renacer Veeda El Paraiso</h4>
+                    <p>Disfruta de los recorridos en canoa artesanal, baño en aguas rodeadas de naturaleza y los atardeceres</p>
+                    <a href="detalles.html" class="btn">Ver detalles</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AgroPlataforma. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Términos de servicio</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
